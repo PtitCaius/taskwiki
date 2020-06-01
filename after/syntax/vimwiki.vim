@@ -56,7 +56,7 @@ endif
 " Configure custom FoldText function
 " Altered version of the VimwikiFoldText
 setlocal foldmethod=syntax
-setlocal viewoptions=folds
+setlocal viewoptions+=folds
 
 function! TaskwikiFoldText()
   let line = getline(v:foldstart)
